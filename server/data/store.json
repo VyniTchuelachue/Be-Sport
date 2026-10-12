@@ -1,0 +1,36 @@
+{
+  "name": "Be Sport Cameroun",
+  "description": "Magasin multimarque de vêtements, chaussures et équipements de sport à Bonapriso, Douala.",
+  "address": {
+    "place": "Centre commercial Casino",
+    "district": "Bonapriso",
+    "city": "Douala",
+    "country": "Cameroun",
+    "plusCode": "2MFX+G2 Douala"
+  },
+  "geo": { "lat": 4.0237771, "lng": 9.697527 },
+  "phone": { "display": "+237 6 99 57 32 44", "href": "+237699573244" },
+  "whatsapp": { "display": "+237 6 92 35 03 29", "number": "237692350329" },
+  "timezone": "Africa/Douala",
+  "hours": [
+    { "day": "Dimanche", "open": "09:00", "close": "15:00" },
+    { "day": "Lundi", "open": "09:00", "close": "20:00" },
+    { "day": "Mardi", "open": "09:00", "close": "20:00" },
+    { "day": "Mercredi", "open": "09:00", "close": "20:00" },
+    { "day": "Jeudi", "open": "09:00", "close": "20:00" },
+    { "day": "Vendredi", "open": "09:00", "close": "20:00" },
+    { "day": "Samedi", "open": "09:00", "close": "20:00" }
+  ],
+  "rating": { "value": 4.1, "count": 50, "source": "Google" },
+  "social": {
+    "facebook": "https://www.facebook.com/besportcameroun/",
+    "instagram": "https://www.instagram.com/besportcameroun/",
+    "instagramHandle": "@besportcameroun",
+    "facebookFollowers": "7,8 k"
+  },
+  "maps": {
+    "place": "https://maps.app.goo.gl/hCRmbeh69ikLTzMG8",
+    "directions": "https://www.google.com/maps/dir/?api=1&destination=4.0237771,9.697527",
+    "embed": "https://www.google.com/maps?q=Be+Sport+Bonapriso,+Douala&ll=4.0237771,9.697527&z=17&output=embed"
+  }
+}

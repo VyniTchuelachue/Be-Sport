@@ -1,0 +1,17 @@
+{
+  "name": "be-sport",
+  "private": true,
+  "description": "Be Sport Cameroun — site web du magasin de sport de Bonapriso, Douala",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c green,cyan \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "npm start -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}

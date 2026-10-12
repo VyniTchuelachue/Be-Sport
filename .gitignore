@@ -1,0 +1,5 @@
+node_modules
+client/dist
+server/data/orders.json
+server/data/newsletter.json
+.env

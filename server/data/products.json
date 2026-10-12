@@ -1,0 +1,430 @@
+[
+  {
+    "slug": "maillot-cameroun-lions-indomptables",
+    "brand": "Fourteen",
+    "name": "Maillot Cameroun Lions Indomptables",
+    "category": "vetements",
+    "sport": "football",
+    "gender": "mixte",
+    "price": 45000,
+    "badge": "Nouveau",
+    "image": "/images/products/maillot-cameroun.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Le maillot vert des Lions Indomptables, aux couleurs du Cameroun. Coupe sport, tissu léger qui évacue la transpiration, écusson de la Fédération brodé.",
+    "highlights": [
+      "Écusson FECAFOOT",
+      "Tissu respirant",
+      "Coupe ajustée"
+    ],
+    "featured": true,
+    "createdAt": "2026-09-20"
+  },
+  {
+    "slug": "hoka-chaussure-running-route",
+    "brand": "Hoka",
+    "name": "Chaussure de running route",
+    "category": "chaussures",
+    "sport": "running",
+    "gender": "mixte",
+    "price": 95000,
+    "badge": "Nouveau",
+    "image": "/images/products/hoka.webp",
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Un amorti généreux et une semelle à bascule qui accompagne la foulée, pour les sorties longues comme pour l'entraînement de tous les jours.",
+    "highlights": [
+      "Amorti maximal",
+      "Semelle à bascule",
+      "Tige en mesh respirant"
+    ],
+    "featured": true,
+    "createdAt": "2026-09-12"
+  },
+  {
+    "slug": "brooks-ghost",
+    "brand": "Brooks",
+    "name": "Ghost, running route",
+    "category": "chaussures",
+    "sport": "running",
+    "gender": "homme",
+    "price": 89000,
+    "badge": "Performance",
+    "image": "/images/products/brooks-ghost.webp",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "La chaussure polyvalente par excellence : douce à l'attaque, stable, et assez légère pour accélérer quand vous en avez envie.",
+    "highlights": [
+      "Transition douce",
+      "Polyvalente",
+      "Semelle durable"
+    ],
+    "featured": true,
+    "createdAt": "2026-08-30"
+  },
+  {
+    "slug": "ua-ensemble-brassiere-cycliste",
+    "brand": "Under Armour",
+    "name": "Ensemble brassière + cycliste",
+    "category": "vetements",
+    "sport": "fitness",
+    "gender": "femme",
+    "price": 45000,
+    "badge": "Performance",
+    "image": "/images/products/ua-set.webp",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "description": "Brassière maintien moyen et cycliste taille haute, dans un tissu compressif qui sèche vite. Pensé pour le fitness, le cross-training et la course.",
+    "highlights": [
+      "Maintien moyen",
+      "Taille haute",
+      "Séchage rapide"
+    ],
+    "featured": true,
+    "createdAt": "2026-09-05"
+  },
+  {
+    "slug": "new-balance-fresh-foam",
+    "brand": "New Balance",
+    "name": "Fresh Foam, running quotidien",
+    "category": "chaussures",
+    "sport": "running",
+    "gender": "mixte",
+    "price": 65000,
+    "image": "/images/products/new-balance.webp",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "description": "Une mousse souple et confortable pour courir ou marcher au quotidien. Un bon premier choix pour se mettre au running.",
+    "highlights": [
+      "Mousse Fresh Foam",
+      "Confort au quotidien",
+      "Idéale pour débuter"
+    ],
+    "featured": false,
+    "createdAt": "2026-07-18"
+  },
+  {
+    "slug": "saucony-chaussure-running",
+    "brand": "Saucony",
+    "name": "Chaussure de running",
+    "category": "chaussures",
+    "sport": "running",
+    "gender": "mixte",
+    "price": 79000,
+    "image": "/images/products/saucony.webp",
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "description": "Réactive et bien tenue au pied, pour les séances rythmées et les sorties du week-end.",
+    "highlights": [
+      "Mousse réactive",
+      "Bon maintien",
+      "Accroche fiable"
+    ],
+    "featured": false,
+    "createdAt": "2026-07-02"
+  },
+  {
+    "slug": "maillot-fc-bayern-exterieur",
+    "brand": "adidas",
+    "name": "Maillot FC Bayern Munich extérieur",
+    "category": "vetements",
+    "sport": "football",
+    "gender": "homme",
+    "price": 55000,
+    "image": "/images/products/maillot-bayern.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Le maillot extérieur du Bayern, noir à motifs, avec les trois bandes violettes sur les épaules.",
+    "highlights": [
+      "Tissu respirant",
+      "Écusson du club",
+      "Coupe supporter"
+    ],
+    "featured": false,
+    "createdAt": "2026-06-10"
+  },
+  {
+    "slug": "ballon-football-adidas",
+    "brand": "adidas",
+    "name": "Ballon de football Fussballliebe",
+    "category": "equipements",
+    "sport": "football",
+    "gender": "mixte",
+    "price": 25000,
+    "image": "/images/products/ballon-adidas.webp",
+    "sizes": [
+      "T4",
+      "T5"
+    ],
+    "description": "Ballon thermocollé, rond et régulier, pour le match comme pour l'entraînement sur terrain synthétique ou en herbe.",
+    "highlights": [
+      "Coutures thermocollées",
+      "Taille 4 ou 5",
+      "Tous terrains"
+    ],
+    "featured": true,
+    "createdAt": "2026-08-14"
+  },
+  {
+    "slug": "ballons-football-entrainement",
+    "brand": "Multimarque",
+    "name": "Ballons de football d'entraînement",
+    "category": "equipements",
+    "sport": "football",
+    "gender": "mixte",
+    "price": 12000,
+    "image": "/images/products/ballons-football.webp",
+    "sizes": [
+      "T3",
+      "T4",
+      "T5"
+    ],
+    "description": "Un large choix de ballons pour les clubs, les écoles de foot et les matchs entre amis. Demandez conseil en magasin pour choisir la bonne taille.",
+    "highlights": [
+      "Tailles 3 à 5",
+      "Entraînement",
+      "Plusieurs marques"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-20"
+  },
+  {
+    "slug": "sweat-capuche-chicago-bulls",
+    "brand": "New Era",
+    "name": "Sweat à capuche Chicago Bulls",
+    "category": "vetements",
+    "sport": "basketball",
+    "gender": "homme",
+    "price": 27000,
+    "compareAt": 45000,
+    "image": "/images/products/hoodie-bulls.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Le sweat à capuche noir des Bulls, logo brodé sur la poitrine. Molleton doux à l'intérieur.",
+    "highlights": [
+      "Logo brodé",
+      "Molleton intérieur",
+      "Poche kangourou"
+    ],
+    "featured": true,
+    "createdAt": "2026-04-02"
+  },
+  {
+    "slug": "arena-boxer-de-bain",
+    "brand": "arena",
+    "name": "Boxer de bain",
+    "category": "vetements",
+    "sport": "natation",
+    "gender": "homme",
+    "price": 10500,
+    "compareAt": 15000,
+    "image": "/images/products/arena-boxer.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Boxer de bain résistant au chlore, qui garde sa forme et sa couleur au fil des séances de piscine.",
+    "highlights": [
+      "Résiste au chlore",
+      "Séchage rapide",
+      "Cordon de serrage"
+    ],
+    "featured": false,
+    "createdAt": "2026-03-15"
+  },
+  {
+    "slug": "arena-top-anti-uv-junior",
+    "brand": "arena",
+    "name": "Top anti-UV junior",
+    "category": "vetements",
+    "sport": "natation",
+    "gender": "enfant",
+    "price": 12600,
+    "compareAt": 18000,
+    "image": "/images/products/arena-junior.webp",
+    "sizes": [
+      "4 ans",
+      "6 ans",
+      "8 ans",
+      "10 ans",
+      "12 ans"
+    ],
+    "description": "Top manches longues qui protège les enfants du soleil à la plage et à la piscine. Coloré et facile à enfiler.",
+    "highlights": [
+      "Protection UV",
+      "Manches longues",
+      "Séchage rapide"
+    ],
+    "featured": false,
+    "createdAt": "2026-03-15"
+  },
+  {
+    "slug": "table-tennis-de-table-cornilleau",
+    "brand": "Cornilleau",
+    "name": "Table de tennis de table",
+    "category": "equipements",
+    "sport": "raquette",
+    "gender": "mixte",
+    "price": 450000,
+    "image": "/images/products/table-cornilleau.webp",
+    "sizes": [],
+    "description": "Table pliable sur roulettes, pour la maison, l'école ou l'entreprise. Plateau résistant et coins protégés.",
+    "highlights": [
+      "Pliable",
+      "Sur roulettes",
+      "Usage intérieur"
+    ],
+    "featured": true,
+    "createdAt": "2026-06-01"
+  },
+  {
+    "slug": "raquette-tennis-de-table",
+    "brand": "Cornilleau",
+    "name": "Raquette de tennis de table",
+    "category": "equipements",
+    "sport": "raquette",
+    "gender": "mixte",
+    "price": 20000,
+    "image": "/images/products/raquettes-ping-pong.webp",
+    "sizes": [],
+    "description": "Raquette polyvalente avec revêtements collés, un bon équilibre entre contrôle et vitesse pour progresser.",
+    "highlights": [
+      "Contrôle",
+      "Revêtements collés",
+      "Tous niveaux"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-08"
+  },
+  {
+    "slug": "balles-tennis-dunlop",
+    "brand": "Dunlop",
+    "name": "Balles de tennis, tube de 4",
+    "category": "accessoires",
+    "sport": "raquette",
+    "gender": "mixte",
+    "price": 7500,
+    "image": "/images/products/balles-dunlop.webp",
+    "sizes": [],
+    "description": "Balles pressurisées pour le jeu sur terre battue et sur dur, vendues en tube de 4.",
+    "highlights": [
+      "Pressurisées",
+      "Tube de 4",
+      "Tous terrains"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-08"
+  },
+  {
+    "slug": "velo-entrainement-proform",
+    "brand": "ProForm",
+    "name": "Vélo d'entraînement Tour de France",
+    "category": "equipements",
+    "sport": "fitness",
+    "gender": "mixte",
+    "price": 1290000,
+    "badge": "Performance",
+    "image": "/images/products/velo-proform.webp",
+    "sizes": [],
+    "description": "Vélo d'intérieur haut de gamme avec résistance magnétique silencieuse et position route. À essayer en magasin.",
+    "highlights": [
+      "Résistance magnétique",
+      "Position route",
+      "Silencieux"
+    ],
+    "featured": true,
+    "createdAt": "2026-08-01"
+  },
+  {
+    "slug": "casquette-nike-club",
+    "brand": "Nike",
+    "name": "Casquette Club",
+    "category": "accessoires",
+    "sport": "multisport",
+    "gender": "mixte",
+    "price": 15000,
+    "image": "/images/products/casquettes-nike.webp",
+    "sizes": [],
+    "description": "Casquette en coton à visière incurvée, réglable à l'arrière. Plusieurs coloris en magasin.",
+    "highlights": [
+      "Réglable",
+      "Coton",
+      "Plusieurs coloris"
+    ],
+    "featured": false,
+    "createdAt": "2026-07-25"
+  },
+  {
+    "slug": "vtt-adulte",
+    "brand": "Multimarque",
+    "name": "VTT adulte",
+    "category": "equipements",
+    "sport": "cycle",
+    "gender": "mixte",
+    "price": 285000,
+    "image": "/images/products/vtt.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "description": "VTT robuste avec freins à disque et suspension avant, pour la ville comme pour les pistes.",
+    "highlights": [
+      "Freins à disque",
+      "Suspension avant",
+      "Cadre robuste"
+    ],
+    "featured": false,
+    "createdAt": "2026-06-20"
+  }
+]
