@@ -91,12 +91,21 @@ router.post('/orders', async (req, res, next) => {
       ...order,
       subtotal: order.lines.reduce((s, l) => s + l.total, 0),
     };
-    await append('orders.json', record);
+    // Saving is best-effort: on hosts with a read-only filesystem (Vercel) the write fails,
+    // but the WhatsApp message carries the whole order, so checkout must still go through.
+    let saved = true;
+    try {
+      await append('orders.json', record);
+    } catch (err) {
+      saved = false;
+      console.error(`[orders] ${record.id} non enregistrée côté serveur (${err.code || err.message}).`);
+    }
 
     const text = whatsappMessage(record);
     res.status(201).json({
       id: record.id,
       subtotal: record.subtotal,
+      saved,
       whatsappUrl: `https://wa.me/${getStore().whatsapp.number}?text=${encodeURIComponent(text)}`,
     });
   } catch (err) {
@@ -119,7 +128,15 @@ router.post('/newsletter', async (req, res, next) => {
       return res.status(422).json({ error: 'Cette adresse e-mail ne semble pas valide.' });
     }
     const list = await readList('newsletter.json');
-    if (!list.some((s) => s.email === email)) await append('newsletter.json', { email, createdAt: new Date().toISOString() });
+    if (!list.some((s) => s.email === email)) {
+      try {
+        await append('newsletter.json', { email, createdAt: new Date().toISOString() });
+      } catch (err) {
+        // Never confirm a sign-up that was not actually stored.
+        console.error(`[newsletter] inscription non enregistrée (${err.code || err.message}).`);
+        return res.status(503).json({ error: "Les inscriptions sont momentanément indisponibles. Suivez-nous sur Facebook ou Instagram en attendant." });
+      }
+    }
     res.status(201).json({ ok: true });
   } catch (err) {
     next(err);

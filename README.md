@@ -29,6 +29,18 @@ npm start
 
 `npm start` lance un seul serveur Node qui sert l'API et le site compilé (`client/dist`). Le port se règle avec la variable `PORT` (4000 par défaut). N'importe quel hébergeur Node convient (Render, Railway, un VPS avec PM2…).
 
+### Sur Vercel
+
+Le fichier `vercel.json` déclare deux services : `client` (Vite) et `server` (Express). Les requêtes `/api/*` vont au serveur, tout le reste au site. Il suffit d'importer le dépôt dans Vercel.
+
+Le système de fichiers de Vercel est en lecture seule, ce qui change trois choses :
+
+- **Commandes** : elles ne sont pas enregistrées côté serveur. Le client reçoit quand même son lien WhatsApp avec le récapitulatif complet, donc la commande arrive au magasin par WhatsApp.
+- **Newsletter** : les inscriptions sont refusées avec un message clair, plutôt que confirmées sans être enregistrées.
+- **Catalogue** : pour modifier un produit ou un prix, modifiez `server/data/` puis poussez sur GitHub ; Vercel redéploie.
+
+Pour conserver les commandes et les inscriptions sur Vercel, il faut brancher une base de données (Upstash Redis ou Postgres, depuis l'onglet Storage du projet).
+
 ## Modifier le contenu
 
 Tout se passe dans `server/data/`. Les changements sont pris en compte à la requête suivante, sans redémarrer.

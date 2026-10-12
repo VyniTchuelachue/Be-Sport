@@ -2,6 +2,11 @@ import { readFile, writeFile, rename } from 'node:fs/promises';
 import { existsSync, readFileSync, statSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+// Static imports guarantee the catalogue ships inside serverless bundles (Vercel),
+// where files that are only read through fs can be left out of the deployment.
+import productsSeed from '../data/products.json' with { type: 'json' };
+import storeSeed from '../data/store.json' with { type: 'json' };
+import promotionsSeed from '../data/promotions.json' with { type: 'json' };
 
 const DATA_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'data');
 const file = (name) => path.join(DATA_DIR, name);
@@ -28,9 +33,9 @@ function live(name, fallback) {
   }
 }
 
-export const getProducts = () => live('products.json', []);
-export const getStore = () => live('store.json', {});
-export const getPromotions = () => live('promotions.json', []);
+export const getProducts = () => live('products.json', productsSeed);
+export const getStore = () => live('store.json', storeSeed);
+export const getPromotions = () => live('promotions.json', promotionsSeed);
 export const findProduct = (slug) => getProducts().find((p) => p.slug === slug);
 
 async function readJson(name, fallback) {

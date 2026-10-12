@@ -172,7 +172,10 @@ function Confirmation({ order }) {
       <span className="mx-auto grid size-14 place-items-center rounded-full bg-volt">
         <CheckIcon className="size-7" />
       </span>
-      <h1 className="title mt-6 text-[clamp(1.8rem,4vw,2.6rem)]">Commande {order.id} enregistrée</h1>
+      {/* `saved` is false when the host cannot store orders; WhatsApp is then the only record. */}
+      <h1 className="title mt-6 text-[clamp(1.8rem,4vw,2.6rem)]">
+        Commande {order.id} {order.saved ? 'enregistrée' : 'prête à envoyer'}
+      </h1>
       <p className="mx-auto mt-3 max-w-lg text-[17px] leading-relaxed text-steel">
         Dernière étape : envoyez-la sur WhatsApp. L'équipe Be Sport confirme la disponibilité, le délai et le prix de livraison dans la journée.
       </p>

@@ -31,6 +31,11 @@ app.use((err, _req, res, _next) => {
   res.status(500).json({ error: 'Le serveur a rencontré une erreur. Réessayez dans un instant.' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Be Sport API → http://localhost:${PORT}`);
-});
+// On Vercel the platform invokes the exported app itself; everywhere else we listen on a port.
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`Be Sport API → http://localhost:${PORT}`);
+  });
+}
+
+export default app;
